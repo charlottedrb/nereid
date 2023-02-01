@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A003C83B29703D0B00207FD0 /* FishModel2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A003C83A29703D0B00207FD0 /* FishModel2.mlmodel */; };
+		A003C83D29706B6700207FD0 /* FishModelNight.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A003C83C29706B6700207FD0 /* FishModelNight.mlmodel */; };
+		A003C8402974B76400207FD0 /* TheForegenRoughOne.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A003C83F2974B74E00207FD0 /* TheForegenRoughOne.ttf */; };
+		A00E7992294CF1920072AA4E /* Nereid_ScannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00E7991294CF1920072AA4E /* Nereid_ScannerApp.swift */; };
+		A00E7994294CF1920072AA4E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00E7993294CF1920072AA4E /* ContentView.swift */; };
+		A00E7996294CF1940072AA4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A00E7995294CF1940072AA4E /* Assets.xcassets */; };
+		A00E7999294CF1940072AA4E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A00E7998294CF1940072AA4E /* Preview Assets.xcassets */; };
+		A00E79CE294CF1D40072AA4E /* SharedToyBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00E79A0294CF1D30072AA4E /* SharedToyBox.swift */; };
+		A00E79CF294CF1D40072AA4E /* SDKUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00E79A2294CF1D30072AA4E /* SDKUtils.swift */; };
+		A00E79D0294CF1D40072AA4E /* Toy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00E79A5294CF1D30072AA4E /* Toy.swift */; };
+		A00E79D1294CF1D40072AA4E /* SensorControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00E79A6294CF1D30072AA4E /* SensorControl.swift */; };
+		A00E79D2294CF1D40072AA4E /* SPRKToy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00E79A8294CF1D30072AA4E /* SPRKToy.swift */; };
+		A00E79D3294CF1D40072AA4E /* SensorControlV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00E79A9294CF1D30072AA4E /* SensorControlV1.swift */; };
+		A00E79D4294CF1D40072AA4E /* SpheroV1Toy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00E79AA294CF1D30072AA4E /* SpheroV1Toy.swift */; };
+		A00E79D5294CF1D40072AA4E /* SpheroV1ToyCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00E79AB294CF1D30072AA4E /* SpheroV1ToyCore.swift */; };
+		A00E79D6294CF1D40072AA4E /* BB8Toy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00E79AC294CF1D30072AA4E /* BB8Toy.swift */; };
+		A00E79D7294CF1D40072AA4E /* SensorControlV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00E79AE294CF1D30072AA4E /* SensorControlV2.swift */; };
+		A00E79D8294CF1D40072AA4E /* BB9EToy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00E79AF294CF1D30072AA4E /* BB9EToy.swift */; };
+		A00E79D9294CF1D40072AA4E /* SpheroV2Toy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00E79B0294CF1D30072AA4E /* SpheroV2Toy.swift */; };
+		A00E79DA294CF1D40072AA4E /* BoltToy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00E79B1294CF1D30072AA4E /* BoltToy.swift */; };
+		A00E79DB294CF1D40072AA4E /* R2D2Toy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00E79B2294CF1D30072AA4E /* R2D2Toy.swift */; };
+		A00E79DC294CF1D40072AA4E /* SpheroV2ToyCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00E79B3294CF1D30072AA4E /* SpheroV2ToyCore.swift */; };
+		A00E79DD294CF1D40072AA4E /* MiniToy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00E79B4294CF1D30072AA4E /* MiniToy.swift */; };
+		A00E79DE294CF1D40072AA4E /* ToyProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00E79B5294CF1D30072AA4E /* ToyProtocols.swift */; };
+		A00E79DF294CF1D40072AA4E /* CBUUID+SpheroUUIDs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00E79B6294CF1D30072AA4E /* CBUUID+SpheroUUIDs.swift */; };
+		A00E79E0294CF1D40072AA4E /* ToyBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00E79B8294CF1D30072AA4E /* ToyBox.swift */; };
+		A00E79E1294CF1D40072AA4E /* Color+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00E79B9294CF1D30072AA4E /* Color+Utils.swift */; };
+		A00E79E2294CF1D40072AA4E /* SensorUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00E79BB294CF1D30072AA4E /* SensorUtils.swift */; };
+		A00E79E3294CF1D40072AA4E /* CommandOperationV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00E79BD294CF1D30072AA4E /* CommandOperationV2.swift */; };
+		A00E79E4294CF1D40072AA4E /* CommandSequencerV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00E79BE294CF1D30072AA4E /* CommandSequencerV2.swift */; };
+		A00E79E5294CF1D40072AA4E /* CommandV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00E79BF294CF1D30072AA4E /* CommandV2.swift */; };
+		A00E79E6294CF1D40072AA4E /* VersionsCommandResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00E79C1294CF1D30072AA4E /* VersionsCommandResponse.swift */; };
+		A00E79E7294CF1D40072AA4E /* ShouldActionCompleteResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00E79C2294CF1D30072AA4E /* ShouldActionCompleteResponse.swift */; };
+		A00E79E8294CF1D40072AA4E /* SensorCommandResponseV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00E79C3294CF1D30072AA4E /* SensorCommandResponseV2.swift */; };
+		A00E79E9294CF1D40072AA4E /* SensorCommandResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00E79C4294CF1D30072AA4E /* SensorCommandResponse.swift */; };
+		A00E79EA294CF1D40072AA4E /* SensorMaskCommandResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00E79C5294CF1D30072AA4E /* SensorMaskCommandResponse.swift */; };
+		A00E79EB294CF1D40072AA4E /* PowerStateResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00E79C6294CF1D30072AA4E /* PowerStateResponse.swift */; };
+		A00E79EC294CF1D40072AA4E /* CollisionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00E79C7294CF1D30072AA4E /* CollisionData.swift */; };
+		A00E79ED294CF1D40072AA4E /* CommandV1Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00E79C9294CF1D30072AA4E /* CommandV1Operation.swift */; };
+		A00E79EE294CF1D40072AA4E /* CommandV1Sequencer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00E79CA294CF1D30072AA4E /* CommandV1Sequencer.swift */; };
+		A00E79EF294CF1D40072AA4E /* CommandV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00E79CB294CF1D30072AA4E /* CommandV1.swift */; };
+		A00E79F0294CF1D40072AA4E /* Double+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00E79CC294CF1D30072AA4E /* Double+Utils.swift */; };
+		A00E79F1294CF1D40072AA4E /* String+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00E79CD294CF1D30072AA4E /* String+Utils.swift */; };
+		A00E79F3294CF4940072AA4E /* SpheroLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00E79F2294CF4940072AA4E /* SpheroLoading.swift */; };
+		A071DEFE296D8433001686ED /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A071DEFD296D8433001686ED /* ScannerView.swift */; };
+		A071DF02296D928B001686ED /* ImageCaptureView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A071DF01296D928B001686ED /* ImageCaptureView.storyboard */; };
+		A071DF04296D9F70001686ED /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A071DF03296D9F70001686ED /* Storyboard.storyboard */; };
+		A075A92E29677C22008B602C /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A075A92929677C22008B602C /* MobileNet.mlmodel */; };
+		A075A92F29677C22008B602C /* VNClassificationObservation+confidenceString.swift in Sources */ = {isa = PBXBuildFile; fileRef = A075A92B29677C22008B602C /* VNClassificationObservation+confidenceString.swift */; };
+		A075A93029677C22008B602C /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A075A92C29677C22008B602C /* CGImagePropertyOrientation+UIImageOrientation.swift */; };
+		A075A93129677C22008B602C /* ImagePredictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A075A92D29677C22008B602C /* ImagePredictor.swift */; };
+		A075A93329677C39008B602C /* CoreMLInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = A075A93229677C39008B602C /* CoreMLInterface.swift */; };
+		A075A93529677F3B008B602C /* TabMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A075A93429677F3B008B602C /* TabMainView.swift */; };
+		A075A93729677F58008B602C /* SpheroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A075A93629677F58008B602C /* SpheroView.swift */; };
+		A0882AA1296EB0BF001ACE5C /* FishModel1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A0882AA0296EB0BF001ACE5C /* FishModel1.mlmodel */; };
+		A0967C7E296DCB050087994A /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0967C7D296DCB050087994A /* CameraPreview.swift */; };
+		A0967C80296DCB2F0087994A /* CameraService+Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0967C7F296DCB2F0087994A /* CameraService+Enums.swift */; };
+		A0967C82296DCB520087994A /* CameraService+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0967C81296DCB520087994A /* CameraService+Extensions.swift */; };
+		A0967C84296DCB6E0087994A /* CameraService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0967C83296DCB6E0087994A /* CameraService.swift */; };
+		A0967C86296DCB830087994A /* ImageResizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0967C85296DCB830087994A /* ImageResizer.swift */; };
+		A0967C88296DCB9C0087994A /* PhotoCaptureProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0967C87296DCB9C0087994A /* PhotoCaptureProcessor.swift */; };
+		A0967C8B296DCC090087994A /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0967C8A296DCC090087994A /* CameraView.swift */; };
+		A0B26763296ED62D00FDE84A /* ExplanationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B26762296ED62D00FDE84A /* ExplanationsView.swift */; };
+		A0B2676A296EE71800FDE84A /* fishdata.json in Resources */ = {isa = PBXBuildFile; fileRef = A0B26769296EE71800FDE84A /* fishdata.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A003C83A29703D0B00207FD0 /* FishModel2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FishModel2.mlmodel; sourceTree = "<group>"; };
+		A003C83C29706B6700207FD0 /* FishModelNight.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FishModelNight.mlmodel; sourceTree = "<group>"; };
+		A003C83F2974B74E00207FD0 /* TheForegenRoughOne.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TheForegenRoughOne.ttf; sourceTree = "<group>"; };
+		A003C8412974B81C00207FD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A00E798E294CF1920072AA4E /* Nereid-Scanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nereid-Scanner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00E7991294CF1920072AA4E /* Nereid_ScannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nereid_ScannerApp.swift; sourceTree = "<group>"; };
+		A00E7993294CF1920072AA4E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A00E7995294CF1940072AA4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A00E7998294CF1940072AA4E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A00E79A0294CF1D30072AA4E /* SharedToyBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedToyBox.swift; sourceTree = "<group>"; };
+		A00E79A2294CF1D30072AA4E /* SDKUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDKUtils.swift; sourceTree = "<group>"; };
+		A00E79A5294CF1D30072AA4E /* Toy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toy.swift; sourceTree = "<group>"; };
+		A00E79A6294CF1D30072AA4E /* SensorControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorControl.swift; sourceTree = "<group>"; };
+		A00E79A8294CF1D30072AA4E /* SPRKToy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPRKToy.swift; sourceTree = "<group>"; };
+		A00E79A9294CF1D30072AA4E /* SensorControlV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorControlV1.swift; sourceTree = "<group>"; };
+		A00E79AA294CF1D30072AA4E /* SpheroV1Toy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpheroV1Toy.swift; sourceTree = "<group>"; };
+		A00E79AB294CF1D30072AA4E /* SpheroV1ToyCore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpheroV1ToyCore.swift; sourceTree = "<group>"; };
+		A00E79AC294CF1D30072AA4E /* BB8Toy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BB8Toy.swift; sourceTree = "<group>"; };
+		A00E79AE294CF1D30072AA4E /* SensorControlV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorControlV2.swift; sourceTree = "<group>"; };
+		A00E79AF294CF1D30072AA4E /* BB9EToy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BB9EToy.swift; sourceTree = "<group>"; };
+		A00E79B0294CF1D30072AA4E /* SpheroV2Toy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpheroV2Toy.swift; sourceTree = "<group>"; };
+		A00E79B1294CF1D30072AA4E /* BoltToy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoltToy.swift; sourceTree = "<group>"; };
+		A00E79B2294CF1D30072AA4E /* R2D2Toy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R2D2Toy.swift; sourceTree = "<group>"; };
+		A00E79B3294CF1D30072AA4E /* SpheroV2ToyCore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpheroV2ToyCore.swift; sourceTree = "<group>"; };
+		A00E79B4294CF1D30072AA4E /* MiniToy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiniToy.swift; sourceTree = "<group>"; };
+		A00E79B5294CF1D30072AA4E /* ToyProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToyProtocols.swift; sourceTree = "<group>"; };
+		A00E79B6294CF1D30072AA4E /* CBUUID+SpheroUUIDs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CBUUID+SpheroUUIDs.swift"; sourceTree = "<group>"; };
+		A00E79B8294CF1D30072AA4E /* ToyBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToyBox.swift; sourceTree = "<group>"; };
+		A00E79B9294CF1D30072AA4E /* Color+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Utils.swift"; sourceTree = "<group>"; };
+		A00E79BB294CF1D30072AA4E /* SensorUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorUtils.swift; sourceTree = "<group>"; };
+		A00E79BD294CF1D30072AA4E /* CommandOperationV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandOperationV2.swift; sourceTree = "<group>"; };
+		A00E79BE294CF1D30072AA4E /* CommandSequencerV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandSequencerV2.swift; sourceTree = "<group>"; };
+		A00E79BF294CF1D30072AA4E /* CommandV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandV2.swift; sourceTree = "<group>"; };
+		A00E79C1294CF1D30072AA4E /* VersionsCommandResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VersionsCommandResponse.swift; sourceTree = "<group>"; };
+		A00E79C2294CF1D30072AA4E /* ShouldActionCompleteResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShouldActionCompleteResponse.swift; sourceTree = "<group>"; };
+		A00E79C3294CF1D30072AA4E /* SensorCommandResponseV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorCommandResponseV2.swift; sourceTree = "<group>"; };
+		A00E79C4294CF1D30072AA4E /* SensorCommandResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorCommandResponse.swift; sourceTree = "<group>"; };
+		A00E79C5294CF1D30072AA4E /* SensorMaskCommandResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorMaskCommandResponse.swift; sourceTree = "<group>"; };
+		A00E79C6294CF1D30072AA4E /* PowerStateResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerStateResponse.swift; sourceTree = "<group>"; };
+		A00E79C7294CF1D30072AA4E /* CollisionData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollisionData.swift; sourceTree = "<group>"; };
+		A00E79C9294CF1D30072AA4E /* CommandV1Operation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandV1Operation.swift; sourceTree = "<group>"; };
+		A00E79CA294CF1D30072AA4E /* CommandV1Sequencer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandV1Sequencer.swift; sourceTree = "<group>"; };
+		A00E79CB294CF1D30072AA4E /* CommandV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandV1.swift; sourceTree = "<group>"; };
+		A00E79CC294CF1D30072AA4E /* Double+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+Utils.swift"; sourceTree = "<group>"; };
+		A00E79CD294CF1D30072AA4E /* String+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Utils.swift"; sourceTree = "<group>"; };
+		A00E79F2294CF4940072AA4E /* SpheroLoading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpheroLoading.swift; sourceTree = "<group>"; };
+		A071DEFD296D8433001686ED /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
+		A071DF01296D928B001686ED /* ImageCaptureView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ImageCaptureView.storyboard; sourceTree = "<group>"; };
+		A071DF03296D9F70001686ED /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		A075A92929677C22008B602C /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
+		A075A92B29677C22008B602C /* VNClassificationObservation+confidenceString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VNClassificationObservation+confidenceString.swift"; sourceTree = "<group>"; };
+		A075A92C29677C22008B602C /* CGImagePropertyOrientation+UIImageOrientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGImagePropertyOrientation+UIImageOrientation.swift"; sourceTree = "<group>"; };
+		A075A92D29677C22008B602C /* ImagePredictor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePredictor.swift; sourceTree = "<group>"; };
+		A075A93229677C39008B602C /* CoreMLInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreMLInterface.swift; sourceTree = "<group>"; };
+		A075A93429677F3B008B602C /* TabMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabMainView.swift; sourceTree = "<group>"; };
+		A075A93629677F58008B602C /* SpheroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpheroView.swift; sourceTree = "<group>"; };
+		A0882AA0296EB0BF001ACE5C /* FishModel1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FishModel1.mlmodel; sourceTree = "<group>"; };
+		A0967C7D296DCB050087994A /* CameraPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreview.swift; sourceTree = "<group>"; };
+		A0967C7F296DCB2F0087994A /* CameraService+Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CameraService+Enums.swift"; sourceTree = "<group>"; };
+		A0967C81296DCB520087994A /* CameraService+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CameraService+Extensions.swift"; sourceTree = "<group>"; };
+		A0967C83296DCB6E0087994A /* CameraService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraService.swift; sourceTree = "<group>"; };
+		A0967C85296DCB830087994A /* ImageResizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageResizer.swift; sourceTree = "<group>"; };
+		A0967C87296DCB9C0087994A /* PhotoCaptureProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCaptureProcessor.swift; sourceTree = "<group>"; };
+		A0967C8A296DCC090087994A /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		A0B26762296ED62D00FDE84A /* ExplanationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplanationsView.swift; sourceTree = "<group>"; };
+		A0B26769296EE71800FDE84A /* fishdata.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fishdata.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A00E798B294CF1920072AA4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A003C83E2974B70F00207FD0 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A003C83F2974B74E00207FD0 /* TheForegenRoughOne.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		A00E7985294CF1920072AA4E = {
+			isa = PBXGroup;
+			children = (
+				A00E7990294CF1920072AA4E /* Nereid-Scanner */,
+				A00E798F294CF1920072AA4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A00E798F294CF1920072AA4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00E798E294CF1920072AA4E /* Nereid-Scanner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A00E7990294CF1920072AA4E /* Nereid-Scanner */ = {
+			isa = PBXGroup;
+			children = (
+				A003C8412974B81C00207FD0 /* Info.plist */,
+				A003C83E2974B70F00207FD0 /* Fonts */,
+				A0B26769296EE71800FDE84A /* fishdata.json */,
+				A075A92729677BEC008B602C /* IA */,
+				A00E799F294CF1D30072AA4E /* SpheroSDK */,
+				A071DEEB296C68AF001686ED /* ImageCapture */,
+				A075A92829677C22008B602C /* ImageRecognition */,
+				A00E7991294CF1920072AA4E /* Nereid_ScannerApp.swift */,
+				A075A93629677F58008B602C /* SpheroView.swift */,
+				A0B26762296ED62D00FDE84A /* ExplanationsView.swift */,
+				A071DF03296D9F70001686ED /* Storyboard.storyboard */,
+				A071DEFD296D8433001686ED /* ScannerView.swift */,
+				A00E7993294CF1920072AA4E /* ContentView.swift */,
+				A071DF01296D928B001686ED /* ImageCaptureView.storyboard */,
+				A00E79F2294CF4940072AA4E /* SpheroLoading.swift */,
+				A075A93429677F3B008B602C /* TabMainView.swift */,
+				A00E7995294CF1940072AA4E /* Assets.xcassets */,
+				A00E7997294CF1940072AA4E /* Preview Content */,
+			);
+			path = "Nereid-Scanner";
+			sourceTree = "<group>";
+		};
+		A00E7997294CF1940072AA4E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A00E7998294CF1940072AA4E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A00E799F294CF1D30072AA4E /* SpheroSDK */ = {
+			isa = PBXGroup;
+			children = (
+				A00E79A0294CF1D30072AA4E /* SharedToyBox.swift */,
+				A00E79A1294CF1D30072AA4E /* SDK */,
+			);
+			path = SpheroSDK;
+			sourceTree = "<group>";
+		};
+		A00E79A1294CF1D30072AA4E /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				A00E79A2294CF1D30072AA4E /* SDKUtils.swift */,
+				A00E79A3294CF1D30072AA4E /* BLE */,
+				A00E79B9294CF1D30072AA4E /* Color+Utils.swift */,
+				A00E79BA294CF1D30072AA4E /* Commands */,
+				A00E79CC294CF1D30072AA4E /* Double+Utils.swift */,
+				A00E79CD294CF1D30072AA4E /* String+Utils.swift */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		A00E79A3294CF1D30072AA4E /* BLE */ = {
+			isa = PBXGroup;
+			children = (
+				A00E79A4294CF1D30072AA4E /* Toy */,
+				A00E79B6294CF1D30072AA4E /* CBUUID+SpheroUUIDs.swift */,
+				A00E79B7294CF1D30072AA4E /* ToyBox */,
+			);
+			path = BLE;
+			sourceTree = "<group>";
+		};
+		A00E79A4294CF1D30072AA4E /* Toy */ = {
+			isa = PBXGroup;
+			children = (
+				A00E79A5294CF1D30072AA4E /* Toy.swift */,
+				A00E79A6294CF1D30072AA4E /* SensorControl.swift */,
+				A00E79A7294CF1D30072AA4E /* V1Toys */,
+				A00E79AD294CF1D30072AA4E /* V2Toys */,
+				A00E79B5294CF1D30072AA4E /* ToyProtocols.swift */,
+			);
+			path = Toy;
+			sourceTree = "<group>";
+		};
+		A00E79A7294CF1D30072AA4E /* V1Toys */ = {
+			isa = PBXGroup;
+			children = (
+				A00E79A8294CF1D30072AA4E /* SPRKToy.swift */,
+				A00E79A9294CF1D30072AA4E /* SensorControlV1.swift */,
+				A00E79AA294CF1D30072AA4E /* SpheroV1Toy.swift */,
+				A00E79AB294CF1D30072AA4E /* SpheroV1ToyCore.swift */,
+				A00E79AC294CF1D30072AA4E /* BB8Toy.swift */,
+			);
+			path = V1Toys;
+			sourceTree = "<group>";
+		};
+		A00E79AD294CF1D30072AA4E /* V2Toys */ = {
+			isa = PBXGroup;
+			children = (
+				A00E79AE294CF1D30072AA4E /* SensorControlV2.swift */,
+				A00E79AF294CF1D30072AA4E /* BB9EToy.swift */,
+				A00E79B0294CF1D30072AA4E /* SpheroV2Toy.swift */,
+				A00E79B1294CF1D30072AA4E /* BoltToy.swift */,
+				A00E79B2294CF1D30072AA4E /* R2D2Toy.swift */,
+				A00E79B3294CF1D30072AA4E /* SpheroV2ToyCore.swift */,
+				A00E79B4294CF1D30072AA4E /* MiniToy.swift */,
+			);
+			path = V2Toys;
+			sourceTree = "<group>";
+		};
+		A00E79B7294CF1D30072AA4E /* ToyBox */ = {
+			isa = PBXGroup;
+			children = (
+				A00E79B8294CF1D30072AA4E /* ToyBox.swift */,
+			);
+			path = ToyBox;
+			sourceTree = "<group>";
+		};
+		A00E79BA294CF1D30072AA4E /* Commands */ = {
+			isa = PBXGroup;
+			children = (
+				A00E79BB294CF1D30072AA4E /* SensorUtils.swift */,
+				A00E79BC294CF1D30072AA4E /* CommandV2 */,
+				A00E79C0294CF1D30072AA4E /* CommandResponses */,
+				A00E79C8294CF1D30072AA4E /* CommandV1 */,
+			);
+			path = Commands;
+			sourceTree = "<group>";
+		};
+		A00E79BC294CF1D30072AA4E /* CommandV2 */ = {
+			isa = PBXGroup;
+			children = (
+				A00E79BD294CF1D30072AA4E /* CommandOperationV2.swift */,
+				A00E79BE294CF1D30072AA4E /* CommandSequencerV2.swift */,
+				A00E79BF294CF1D30072AA4E /* CommandV2.swift */,
+			);
+			path = CommandV2;
+			sourceTree = "<group>";
+		};
+		A00E79C0294CF1D30072AA4E /* CommandResponses */ = {
+			isa = PBXGroup;
+			children = (
+				A00E79C1294CF1D30072AA4E /* VersionsCommandResponse.swift */,
+				A00E79C2294CF1D30072AA4E /* ShouldActionCompleteResponse.swift */,
+				A00E79C3294CF1D30072AA4E /* SensorCommandResponseV2.swift */,
+				A00E79C4294CF1D30072AA4E /* SensorCommandResponse.swift */,
+				A00E79C5294CF1D30072AA4E /* SensorMaskCommandResponse.swift */,
+				A00E79C6294CF1D30072AA4E /* PowerStateResponse.swift */,
+				A00E79C7294CF1D30072AA4E /* CollisionData.swift */,
+			);
+			path = CommandResponses;
+			sourceTree = "<group>";
+		};
+		A00E79C8294CF1D30072AA4E /* CommandV1 */ = {
+			isa = PBXGroup;
+			children = (
+				A00E79C9294CF1D30072AA4E /* CommandV1Operation.swift */,
+				A00E79CA294CF1D30072AA4E /* CommandV1Sequencer.swift */,
+				A00E79CB294CF1D30072AA4E /* CommandV1.swift */,
+			);
+			path = CommandV1;
+			sourceTree = "<group>";
+		};
+		A071DEEB296C68AF001686ED /* ImageCapture */ = {
+			isa = PBXGroup;
+			children = (
+				A0967C89296DCBAF0087994A /* CameraPreview */,
+			);
+			path = ImageCapture;
+			sourceTree = "<group>";
+		};
+		A075A92729677BEC008B602C /* IA */ = {
+			isa = PBXGroup;
+			children = (
+				A075A93229677C39008B602C /* CoreMLInterface.swift */,
+			);
+			path = IA;
+			sourceTree = "<group>";
+		};
+		A075A92829677C22008B602C /* ImageRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				A075A92929677C22008B602C /* MobileNet.mlmodel */,
+				A003C83C29706B6700207FD0 /* FishModelNight.mlmodel */,
+				A003C83A29703D0B00207FD0 /* FishModel2.mlmodel */,
+				A0882AA0296EB0BF001ACE5C /* FishModel1.mlmodel */,
+				A075A92A29677C22008B602C /* Extensions */,
+				A075A92D29677C22008B602C /* ImagePredictor.swift */,
+			);
+			path = ImageRecognition;
+			sourceTree = "<group>";
+		};
+		A075A92A29677C22008B602C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A075A92B29677C22008B602C /* VNClassificationObservation+confidenceString.swift */,
+				A075A92C29677C22008B602C /* CGImagePropertyOrientation+UIImageOrientation.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A0967C89296DCBAF0087994A /* CameraPreview */ = {
+			isa = PBXGroup;
+			children = (
+				A0967C7D296DCB050087994A /* CameraPreview.swift */,
+				A0967C7F296DCB2F0087994A /* CameraService+Enums.swift */,
+				A0967C81296DCB520087994A /* CameraService+Extensions.swift */,
+				A0967C83296DCB6E0087994A /* CameraService.swift */,
+				A0967C85296DCB830087994A /* ImageResizer.swift */,
+				A0967C87296DCB9C0087994A /* PhotoCaptureProcessor.swift */,
+				A0967C8A296DCC090087994A /* CameraView.swift */,
+			);
+			path = CameraPreview;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A00E798D294CF1920072AA4E /* Nereid-Scanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00E799C294CF1940072AA4E /* Build configuration list for PBXNativeTarget "Nereid-Scanner" */;
+			buildPhases = (
+				A00E798A294CF1920072AA4E /* Sources */,
+				A00E798B294CF1920072AA4E /* Frameworks */,
+				A00E798C294CF1920072AA4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nereid-Scanner";
+			productName = "Nereid-Scanner";
+			productReference = A00E798E294CF1920072AA4E /* Nereid-Scanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00E7986294CF1920072AA4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					A00E798D294CF1920072AA4E = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = A00E7989294CF1920072AA4E /* Build configuration list for PBXProject "Nereid-Scanner" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A00E7985294CF1920072AA4E;
+			productRefGroup = A00E798F294CF1920072AA4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A00E798D294CF1920072AA4E /* Nereid-Scanner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A00E798C294CF1920072AA4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00E7999294CF1940072AA4E /* Preview Assets.xcassets in Resources */,
+				A0B2676A296EE71800FDE84A /* fishdata.json in Resources */,
+				A071DF04296D9F70001686ED /* Storyboard.storyboard in Resources */,
+				A071DF02296D928B001686ED /* ImageCaptureView.storyboard in Resources */,
+				A00E7996294CF1940072AA4E /* Assets.xcassets in Resources */,
+				A003C8402974B76400207FD0 /* TheForegenRoughOne.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A00E798A294CF1920072AA4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0882AA1296EB0BF001ACE5C /* FishModel1.mlmodel in Sources */,
+				A0967C84296DCB6E0087994A /* CameraService.swift in Sources */,
+				A00E79CF294CF1D40072AA4E /* SDKUtils.swift in Sources */,
+				A0967C7E296DCB050087994A /* CameraPreview.swift in Sources */,
+				A00E79EE294CF1D40072AA4E /* CommandV1Sequencer.swift in Sources */,
+				A075A93129677C22008B602C /* ImagePredictor.swift in Sources */,
+				A075A93329677C39008B602C /* CoreMLInterface.swift in Sources */,
+				A00E79EA294CF1D40072AA4E /* SensorMaskCommandResponse.swift in Sources */,
+				A00E79F3294CF4940072AA4E /* SpheroLoading.swift in Sources */,
+				A00E79D1294CF1D40072AA4E /* SensorControl.swift in Sources */,
+				A00E79E7294CF1D40072AA4E /* ShouldActionCompleteResponse.swift in Sources */,
+				A00E79D3294CF1D40072AA4E /* SensorControlV1.swift in Sources */,
+				A075A93529677F3B008B602C /* TabMainView.swift in Sources */,
+				A0967C8B296DCC090087994A /* CameraView.swift in Sources */,
+				A00E79E9294CF1D40072AA4E /* SensorCommandResponse.swift in Sources */,
+				A075A93729677F58008B602C /* SpheroView.swift in Sources */,
+				A00E79E3294CF1D40072AA4E /* CommandOperationV2.swift in Sources */,
+				A00E79DD294CF1D40072AA4E /* MiniToy.swift in Sources */,
+				A0967C82296DCB520087994A /* CameraService+Extensions.swift in Sources */,
+				A0967C80296DCB2F0087994A /* CameraService+Enums.swift in Sources */,
+				A00E79E2294CF1D40072AA4E /* SensorUtils.swift in Sources */,
+				A00E79DC294CF1D40072AA4E /* SpheroV2ToyCore.swift in Sources */,
+				A071DEFE296D8433001686ED /* ScannerView.swift in Sources */,
+				A003C83B29703D0B00207FD0 /* FishModel2.mlmodel in Sources */,
+				A00E79E0294CF1D40072AA4E /* ToyBox.swift in Sources */,
+				A00E79F1294CF1D40072AA4E /* String+Utils.swift in Sources */,
+				A00E79E6294CF1D40072AA4E /* VersionsCommandResponse.swift in Sources */,
+				A003C83D29706B6700207FD0 /* FishModelNight.mlmodel in Sources */,
+				A00E79DF294CF1D40072AA4E /* CBUUID+SpheroUUIDs.swift in Sources */,
+				A075A93029677C22008B602C /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */,
+				A075A92E29677C22008B602C /* MobileNet.mlmodel in Sources */,
+				A00E79E1294CF1D40072AA4E /* Color+Utils.swift in Sources */,
+				A00E79D8294CF1D40072AA4E /* BB9EToy.swift in Sources */,
+				A00E79CE294CF1D40072AA4E /* SharedToyBox.swift in Sources */,
+				A00E79EC294CF1D40072AA4E /* CollisionData.swift in Sources */,
+				A00E79F0294CF1D40072AA4E /* Double+Utils.swift in Sources */,
+				A00E79EB294CF1D40072AA4E /* PowerStateResponse.swift in Sources */,
+				A00E79D6294CF1D40072AA4E /* BB8Toy.swift in Sources */,
+				A00E79EF294CF1D40072AA4E /* CommandV1.swift in Sources */,
+				A00E79DA294CF1D40072AA4E /* BoltToy.swift in Sources */,
+				A0967C88296DCB9C0087994A /* PhotoCaptureProcessor.swift in Sources */,
+				A00E79ED294CF1D40072AA4E /* CommandV1Operation.swift in Sources */,
+				A00E79D0294CF1D40072AA4E /* Toy.swift in Sources */,
+				A00E79E5294CF1D40072AA4E /* CommandV2.swift in Sources */,
+				A00E79E4294CF1D40072AA4E /* CommandSequencerV2.swift in Sources */,
+				A00E79E8294CF1D40072AA4E /* SensorCommandResponseV2.swift in Sources */,
+				A00E79D5294CF1D40072AA4E /* SpheroV1ToyCore.swift in Sources */,
+				A0967C86296DCB830087994A /* ImageResizer.swift in Sources */,
+				A00E79D2294CF1D40072AA4E /* SPRKToy.swift in Sources */,
+				A00E79D9294CF1D40072AA4E /* SpheroV2Toy.swift in Sources */,
+				A075A92F29677C22008B602C /* VNClassificationObservation+confidenceString.swift in Sources */,
+				A00E7994294CF1920072AA4E /* ContentView.swift in Sources */,
+				A00E79D4294CF1D40072AA4E /* SpheroV1Toy.swift in Sources */,
+				A00E7992294CF1920072AA4E /* Nereid_ScannerApp.swift in Sources */,
+				A00E79DB294CF1D40072AA4E /* R2D2Toy.swift in Sources */,
+				A0B26763296ED62D00FDE84A /* ExplanationsView.swift in Sources */,
+				A00E79D7294CF1D40072AA4E /* SensorControlV2.swift in Sources */,
+				A00E79DE294CF1D40072AA4E /* ToyProtocols.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A00E799A294CF1940072AA4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A00E799B294CF1940072AA4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A00E799D294CF1940072AA4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nereid-Scanner/Preview Content\"";
+				DEVELOPMENT_TEAM = X2GL2D746V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Nereid-Scanner/Info.plist";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = BLE;
+				INFOPLIST_KEY_NSCameraUsageDescription = CoreML;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.charlottedrb.Nereid-Scanner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A00E799E294CF1940072AA4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nereid-Scanner/Preview Content\"";
+				DEVELOPMENT_TEAM = X2GL2D746V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Nereid-Scanner/Info.plist";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = BLE;
+				INFOPLIST_KEY_NSCameraUsageDescription = CoreML;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.charlottedrb.Nereid-Scanner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A00E7989294CF1920072AA4E /* Build configuration list for PBXProject "Nereid-Scanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00E799A294CF1940072AA4E /* Debug */,
+				A00E799B294CF1940072AA4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00E799C294CF1940072AA4E /* Build configuration list for PBXNativeTarget "Nereid-Scanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00E799D294CF1940072AA4E /* Debug */,
+				A00E799E294CF1940072AA4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A00E7986294CF1920072AA4E /* Project object */;
+}

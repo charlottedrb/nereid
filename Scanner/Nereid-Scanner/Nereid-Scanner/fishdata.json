@@ -1,0 +1,56 @@
+[
+  {
+    "mlmodel": "PoissonPapillonMasque",
+    "title": "Poisson papillon masqué",
+    "description": "Le poisson papillon possède une couleur jaune très reconnaissable.",
+    "location": "Mer arabique",
+    "food": "Carnivore",
+    "size": "15 cm",
+    "rate": 80
+  },
+  {
+    "mlmodel": "PoissonPapillon",
+    "title": "Poisson papillon",
+    "description": "Ils doivent leur nom aux magnifiques couleurs qu'ils portent.",
+    "location": "Mer arabique",
+    "food": "Carnivore",
+    "size": "18 cm",
+    "rate": 100
+  },
+  {
+    "mlmodel": "BarbuSumatra",
+    "title": "Barbu de Sumatra",
+    "description": "Il est orange barré de noir. Le mâle a un nez rouge brillant et ses couleurs sont plus vives.",
+    "location": "Asie du Sud-Est",
+    "food": "Omnivore",
+    "size": "7 cm",
+    "rate": 30
+  },
+  {
+    "mlmodel": "PoissonChirurgien",
+    "title": "Poisson chirurgien",
+    "description": "Il est orange barré de noir. Le mâle a un nez rouge brillant et ses couleurs sont plus vives.",
+    "location": "Mers tropicales",
+    "food": "Herbivore",
+    "size": "25 cm",
+    "rate": 70
+  },
+  {
+    "mlmodel": "BalisteClown",
+    "title": "Baliste clown",
+    "description": "Il est orange barré de noir. Le mâle a un nez rouge brillant et ses couleurs sont plus vives.",
+    "location": "Océan indien",
+    "food": "Omnivore",
+    "size": "50 cm",
+    "rate": 24
+  },
+  {
+    "mlmodel": "PoissonAnge",
+    "title": "Poisson ange empereur",
+    "description": "Il est orange barré de noir. Le mâle a un nez rouge brillant et ses couleurs sont plus vives.",
+    "location": "Indo-pacifique",
+    "food": "Spongivore",
+    "size": "40 cm",
+    "rate": 80
+  },
+]
